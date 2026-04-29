@@ -1,5 +1,3 @@
-"""
-
 ## Setup
 
 Python: 3.11.9
@@ -34,5 +32,3 @@ SVM:  python src/evaluate.py --model_path outputs_svm/model.pkl --data_path data
 
 RandomForestClassifier: python src/explain.py --model_path outputs_rf/model.pkl --data_path data/cleaned_data.csv
 LogisticRegression: python src/explain.py --model_path outputs_logreg/model.pkl --data_path data/cleaned_data.csv
-
-"""
